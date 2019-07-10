@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 6)
     (tracks 440)
     (zones 0)
     (modules 41)
@@ -2010,6 +2010,12 @@
     )
   )
 
+  (gr_text 5 (at 47.9 115.6) (layer F.SilkS) (tstamp 5D26781E)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text 1 (at 47.9 110.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 57 120.5) (end 30 120.5) (layer Edge.Cuts) (width 0.05) (tstamp 5D27BC18))
   (gr_line (start 57 70) (end 57 120.5) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 30 70) (end 57 70) (layer Edge.Cuts) (width 0.05))
