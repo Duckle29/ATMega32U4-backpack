@@ -2,32 +2,14 @@ This is a small backpack PCB, meant to go with some 2.4" I2C OLED LCD. It expose
 
 ## Pinout:
 
-* Encoder
-  1. GND
-  2. B
-  3. A
-  4. Switch
-* UART
-  1. GND
-  2. 3V3-TX
-  3. RX (5v or 3v3)
-  4. 5V to power the board
-* OLED
-  1. GND
-  2. 5V
-  3. SCL
-  4. SDA
-* WS2812
-  1. GND
-  2. Data out
-  3. 5V
-* ISP/SPI
-  1. MISO
-  2. 5V
-  3. SCK
-  4. MOSI
-  5. Reset
-  6. GND
+| Pin | Encoder |  UART  |   I2C  | WS2812 |    SPI   |        CS3V3        |
+|:---:|:-------:|:------:|:------:|:------:|:--------:|:-------------------:|
+|  1  |   GND   |   GND  |   GND  |   GND  |   MISO   | 3V3 shifted IO (B0) |
+|  2  |    B    | TX-3V3 |   5V   |  Data  |    3V3   |                     |
+|  3  |    A    |   RX   | SCL-5V |   5V   |  SCK-3V3 |                     |
+|  4  |    SW   |  5V in | SDA-5V |        | MOSI-3V3 |                     |
+|  5  |         |        |        |        |   Reset  |                     |
+|  6  |         |        |        |        |    GND   |                     |
 
 The remaining pins are broken out on the back, with their port and number listed.
 
