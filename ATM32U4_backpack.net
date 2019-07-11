@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:\projects\ATM32U4_backpack\ATM32U4_backpack.sch)
-    (date "2019-07-11 01:34:06")
+    (date "2019-07-11 02:04:15")
     (tool "Eeschema (5.1.2)-2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -248,7 +248,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5D7C7D95))
     (comp (ref TP4)
-      (value AREF)
+      (value Ar)
       (footprint TestPoint:TestPoint_Pad_1.0x1.0mm)
       (datasheet ~)
       (libsource (lib Connector) (part TestPoint) (description "test point"))
